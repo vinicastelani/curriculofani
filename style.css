@@ -59,8 +59,8 @@ body {
 }
 
 .profile__picture {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
     border: solid 2px #fff;
 }
@@ -128,7 +128,7 @@ p {
 }
 
 .gray_theme {
-    background-color: rgba(179, 234, 241, 0.3);
+    background-color: rgba(204, 228, 248, 0.3);
     border: solid 1px black;
 }
 
