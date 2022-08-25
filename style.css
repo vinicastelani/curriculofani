@@ -32,6 +32,8 @@ body {
     height: 160px;
     background-image: url("./background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header__content {
@@ -59,10 +61,12 @@ body {
 }
 
 .profile__picture {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     border: solid 2px #fff;
+    background-image: url(./perfil.jpg);
+    background-size: cover;
 }
 
 .scholarship {
@@ -96,7 +100,7 @@ p {
 .text__name {
     font-size: 24px;
     font-weight: 200;
-
+    color: #ffffff;
 }
 
 .text-caption {
@@ -128,7 +132,7 @@ p {
 }
 
 .gray_theme {
-    background-color: rgba(204, 228, 248, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
     border: solid 1px black;
 }
 
